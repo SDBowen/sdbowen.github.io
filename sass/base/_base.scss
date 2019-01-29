@@ -1,0 +1,156 @@
+/*
+COLORS
+
+Primary: #006992
+
+Grey light: #faf9f9
+
+Grey dark:1 #999
+Grey dark 2: #333
+
+*/
+
+// VARIABLES
+:root {
+  --color-primary: #006992;
+  --color-primary-light: #0075a3;
+
+  --white: #fafaff;
+
+  --grey-light: #faf9f9;
+
+  --grey-dark-1: #999;
+  --grey-dark-2: #333;
+
+  --main-text-color: #333;
+  --main-text-size: 2rem;
+}
+
+// CSS NORMALIZE
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  background-color: var(--grey-light);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 4rem auto;
+}
+
+::selection {
+  background-color: var(--color-primary-light);
+  color: var(--white);
+}
+
+@media screen and (max-width: 900px) {
+  // About section
+  body .brand {
+    margin-bottom: 0rem;
+  }
+  // About box
+  .about-box {
+    flex-direction: column;
+    &__skills-box {
+    }
+  }
+
+  // Projects section
+  body .project-item {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &:not(:last-child) {
+      margin-bottom: 8rem;
+    }
+
+    &__name {
+      margin-top: 0rem;
+      flex: 1 0 100%;
+    }
+    &__description {
+      margin-top: 2rem;
+      flex: 0 0 50%;
+    }
+    &__logo-box {
+      flex: 1 0 100%;
+      min-height: 10rem;
+      margin-top: 3rem;
+    }
+    &__links-box {
+      flex: 1 0 100%;
+      justify-content: center;
+    }
+  }
+
+  // Repos section
+  body .repo-listing {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body .repo-item {
+    flex: 1 0 100%;
+    align-items: center;
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+
+    &__description {
+      text-align: center;
+      max-width: 40rem;
+    }
+  }
+
+  // Navigation button
+  body .nav-menu {
+    width: 100%;
+    opacity: 1;
+  }
+
+  // Full screen navigation
+  body .page-nav {
+    width: 0;
+    opacity: 0;
+    display: none;
+  }
+
+  // hr spacing
+
+  body hr {
+    margin: 5rem 0 5rem 0;
+  }
+
+  // Footer hr
+  main + hr {
+    margin: 0;
+    display: none;
+  }
+
+  // Container
+  .container {
+    padding: 0 2rem;
+  }
+
+  // Headings
+  .heading-secondary--underline {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,82 @@
+.projects-listing {
+}
+
+.project-item {
+  justify-content: space-between;
+  align-items: center;
+
+  display: flex;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+  &__name {
+    width: 12rem;
+
+    & a {
+      color: var(--grey-dark-2);
+      text-decoration: none;
+    }
+  }
+
+  &__description {
+    word-wrap: break-word;
+    width: 45rem;
+  }
+
+  &__logo-box {
+    height: 8rem;
+    width: 20rem;
+    text-align: center;
+  }
+
+  &__logo {
+    max-width: 20rem;
+    max-height: 8rem;
+    vertical-align: bottom;
+    opacity: 0.7;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__links-box {
+    justify-content: space-between;
+    align-items: center;
+
+    display: flex;
+  }
+
+  &__link {
+    text-decoration: none;
+
+    align-items: center;
+    justify-content: space-between;
+
+    display: flex;
+
+    border-radius: 0.3rem;
+    cursor: pointer;
+
+    color: var(--grey-dark-2);
+    padding: 0.8rem;
+
+    &:last-child {
+      margin-left: 3rem;
+    }
+
+    &:hover {
+      background-color: #e7e6e6;
+    }
+  }
+  &__svg {
+    height: 2rem;
+    margin-right: 0.8rem;
+  }
+
+  &__button-text {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}

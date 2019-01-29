@@ -1,0 +1,48 @@
+.repo-listing {
+  justify-content: space-between;
+
+  display: flex;
+}
+.repo-item {
+  flex-direction: column;
+  flex: 0 0 33.33%;
+
+  display: flex;
+  &__date {
+  }
+  &__title {
+  }
+  &__link {
+    text-decoration: none;
+    color: inherit;
+  }
+  &__language {
+    margin-top: 0.3rem;
+    text-align: center;
+  }
+  &__language-text {
+    height: 1.6rem;
+    line-height: 1.8rem;
+    width: 6.7rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+    background-color: var(--grey-dark-1);
+
+    &--ruby {
+      background-color: #e2574c;
+    }
+    &--html {
+      background-color: #8a6bb4;
+    }
+    &--javascript {
+      background-color: #f1e05a;
+    }
+  }
+
+  &__description {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 98%;
+  }
+}
