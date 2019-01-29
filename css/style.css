@@ -389,11 +389,13 @@ hr {
     border-radius: 0.3rem;
     background-color: var(--grey-dark-1); }
     .repo-item__language-text--ruby {
-      background-color: #e2574c; }
+      background-color: #9e267a; }
     .repo-item__language-text--html {
-      background-color: #8a6bb4; }
+      background-color: #e2574c; }
     .repo-item__language-text--javascript {
       background-color: #f1e05a; }
+    .repo-item__language-text--css {
+      background-color: #8a6bb4; }
   .repo-item__description {
     margin-top: 2rem;
     margin-bottom: 1rem;
