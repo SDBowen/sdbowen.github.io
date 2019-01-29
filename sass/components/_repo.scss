@@ -30,13 +30,16 @@
     background-color: var(--grey-dark-1);
 
     &--ruby {
-      background-color: #e2574c;
+      background-color: #9e267a;
     }
     &--html {
-      background-color: #8a6bb4;
+      background-color: #e2574c;
     }
     &--javascript {
       background-color: #f1e05a;
+    }
+    &--css {
+      background-color: #8a6bb4;
     }
   }
 
