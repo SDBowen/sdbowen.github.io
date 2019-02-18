@@ -1,0 +1,32 @@
+.contact-box {
+  a {
+    color: var(--main-text-color);
+  }
+}
+
+.text-underline--1 {
+  text-decoration: none;
+  border-bottom: solid 0.2rem #ec7e627e;
+
+  &:hover {
+    border-bottom: solid 0.25rem #8638257e;
+  }
+}
+
+.text-underline--2 {
+  text-decoration: none;
+  border-bottom: solid 0.2rem #84e47675;
+
+  &:hover {
+    border-bottom: solid 0.25rem #44a13575;
+  }
+}
+
+.text-underline--3 {
+  text-decoration: none;
+  border-bottom: solid 0.2rem #e2e26a96;
+
+  &:hover {
+    border-bottom: solid 0.25rem #bdbd4496;
+  }
+}
