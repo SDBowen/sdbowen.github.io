@@ -59,14 +59,22 @@ body {
 
 @media screen and (max-width: 900px) {
   // About section
-  body .brand {
-    margin-bottom: 0rem;
+  body {
+    .brand {
+      margin-bottom: 3rem;
+    }
+
+    .about-box__description-box {
+      font-size: 2.8rem;
+      line-height: 5.5rem;
+    }
+    .about-box__text {
+      width: 100%;
+    }
   }
   // About box
   .about-box {
     flex-direction: column;
-    &__skills-box {
-    }
   }
 
   // Projects section

@@ -4,7 +4,7 @@
   display: flex;
 
   & > * {
-    flex: 0 0 50%;
+    flex: 0 0 70%;
   }
   &__description-box {
     min-height: 35rem;
@@ -16,21 +16,9 @@
 
   &__text {
     width: 85%;
-  }
-  &__skills-box {
-    min-height: 35rem;
-    align-content: space-around;
-    flex-wrap: wrap;
 
-    display: flex;
-  }
-  &__skill-icon {
-    height: 6rem;
-    opacity: 0.7;
-
-    flex: 1 0 33.33%;
-    &:hover {
-      opacity: 1;
+    &:first-child {
+      margin-bottom: 3.5rem;
     }
   }
 }
