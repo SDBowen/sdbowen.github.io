@@ -397,9 +397,10 @@ hr {
     .repo-item__language-text--css {
       background-color: #8a6bb4; }
   .repo-item__description {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin: 2rem 0 1rem 0;
     width: 98%; }
+    .repo-item__description p {
+      margin-right: 3rem; }
 
 .brand {
   margin-bottom: 10rem; }
