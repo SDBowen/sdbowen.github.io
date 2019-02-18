@@ -116,6 +116,10 @@ body {
     &__description {
       text-align: center;
       max-width: 40rem;
+
+      p {
+        margin-right: 0;
+      }
     }
   }
 
