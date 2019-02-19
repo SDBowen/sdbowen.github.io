@@ -66,6 +66,14 @@
     &:hover {
       background-color: #e7e6e6;
     }
+
+    &--disabled {
+      opacity: 0.2;
+
+      &:hover {
+        background-color: var(--white);
+      }
+    }
   }
   &__svg {
     height: 2rem;

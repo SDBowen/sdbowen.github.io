@@ -132,7 +132,7 @@ hr {
   letter-spacing: 0.05rem; }
 
 .heading-primary {
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 0.05rem; }
 
 .heading-secondary {
@@ -377,6 +377,10 @@ hr {
       margin-left: 3rem; }
     .project-item__link:hover {
       background-color: #e7e6e6; }
+    .project-item__link--disabled {
+      opacity: 0.2; }
+      .project-item__link--disabled:hover {
+        background-color: var(--white); }
   .project-item__svg {
     height: 2rem;
     margin-right: 0.8rem; }
@@ -407,13 +411,13 @@ hr {
     border-radius: 0.3rem;
     background-color: var(--grey-dark-1); }
     .repo-item__language-text--ruby {
-      background-color: #f387d3; }
+      background-color: #a63b0657; }
     .repo-item__language-text--html {
-      background-color: #e2574c; }
+      background-color: #e2564c86; }
     .repo-item__language-text--javascript {
-      background-color: #f1e05a; }
+      background-color: #f1df5abd; }
     .repo-item__language-text--css {
-      background-color: #8a6bb4; }
+      background-color: #896bb486; }
   .repo-item__description {
     margin: 2rem 0 1rem 0;
     width: 98%; }
