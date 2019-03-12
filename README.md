@@ -1,1 +1,1 @@
-## [https://sdbowen.io/]
+## https://sdbowen.io/
