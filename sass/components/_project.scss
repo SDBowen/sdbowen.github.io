@@ -38,6 +38,10 @@
     }
   }
 
+  &__logo-rounded {
+    border-radius: 8px;
+  }
+
   &__links-box {
     justify-content: space-between;
     align-items: center;

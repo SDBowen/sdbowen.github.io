@@ -360,6 +360,8 @@ hr {
     opacity: 0.7; }
     .project-item__logo:hover {
       opacity: 1; }
+  .project-item__logo-rounded {
+    border-radius: 8px; }
   .project-item__links-box {
     justify-content: space-between;
     align-items: center;
