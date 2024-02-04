@@ -9,6 +9,6 @@
   "author": "sdbowen",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^9.0.0"
   }
 }
